@@ -30,8 +30,8 @@
     for($n=0 ; $n<10; $n++) {
         $h = $h . $t;
         echo str_repeat("&nbsp;&nbsp;", 9 - $n) . $h . "<br>";
+        
     }
+    echo "<a href=..//Slide1/Slide1.html>Torna Indietro</a>"
 
-
-    echo '<button onclick="window.history.back()">Torna indietro</button>';
 ?>

@@ -12,5 +12,4 @@ for ($x = 1; $x <= 10; $x++) {
     echo "</tr>";
 }
 echo "</table>";
-echo '<button onclick="window.history.back()">Torna indietro</button>';
 ?>
