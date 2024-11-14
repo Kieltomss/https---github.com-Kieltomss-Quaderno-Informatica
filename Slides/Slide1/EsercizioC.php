@@ -15,19 +15,19 @@
     $j = "*";
     $l = "" ;
     echo "<h1> Esercizio C </h1><br>";
-    echo "<p>Triangoli di asterischi</p><br>";
-    echo "<p>A)Crescente<p><br>";
+    echo "<h2>Triangoli di asterischi</h2><br>";
+    echo "<h3>A)Crescente<h3><br>";
     for($i=0 ; $i<10; $i++) {
         $l = $l . $j;
         echo "$l <br>";
     }
     $d = "**********" ;
-    echo "<p>B)Decrescente<p><br>";
+    echo "<h3>B)Decrescente<h3><br>";
     for($e=10 ; $e>0; $e--) {
         echo "$d <br>";
         $d = substr($d, 0, strlen($d) - 1);
     }
-    echo "<p>C) Decrescente specchiato</p><br>";
+    echo "<h3>C) Decrescente specchiato</h3><br>";
 
     $c = "**********";
     $lunghezza_iniziale = strlen($c);
@@ -39,7 +39,7 @@
     }
     $t = "*";
     $h = "";
-    echo "<p>D)Crescente specchiato</p><br>";
+    echo "<h3>D)Crescente specchiato</h3><br>";
     for($n=0 ; $n<10; $n++) {
         $h = $h . $t;
         echo str_repeat("&nbsp;", 9 - $n) . $h . "<br>";

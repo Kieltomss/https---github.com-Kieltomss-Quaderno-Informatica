@@ -50,7 +50,6 @@
     else{
         echo "\n <br>Buonanotte $nome <br>";
     }
-    echo '<button onclick="window.history.back()">Torna indietro</button>';
 ?>
     <a href="../Slide1/Slide1.html">Torna Indietro</a>
 </body>
