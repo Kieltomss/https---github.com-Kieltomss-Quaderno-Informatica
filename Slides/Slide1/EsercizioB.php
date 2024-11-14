@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
 <?php
     echo "<h1>Esercizio B</h2>";
     echo "<h3>Pagina PHP dinamica con saluto basato sull'ora, benvenuto personalizzato, e rilevazione del browser in uso</h3>";
@@ -43,3 +52,6 @@
     }
     echo '<button onclick="window.history.back()">Torna indietro</button>';
 ?>
+    <a href="../Slide1/Slide1.html">Torna Indietro</a>
+</body>
+</html>

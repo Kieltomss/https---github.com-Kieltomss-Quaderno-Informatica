@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EsercizioC</title>
+</head>
+<body>
+    <style>
+        body {font-family: monospace;}
+    </style>
+
+
 <?php
     $j = "*";
     $l = "" ;
@@ -21,7 +34,7 @@
 
     for ($k = $lunghezza_iniziale; $k > 0; $k--) {
         // Stampa gli spazi per l'allineamento specchiato e poi la stringa di asterischi
-        echo str_repeat("&nbsp;&nbsp;", $lunghezza_iniziale - strlen($c)) . $c . "<br>";
+        echo str_repeat("&nbsp;", $lunghezza_iniziale - strlen($c)) . $c . "<br>";
         $c = substr($c, 0, -1);  // Rimuove un asterisco alla fine della stringa
     }
     $t = "*";
@@ -29,9 +42,12 @@
     echo "<p>D)Crescente specchiato</p><br>";
     for($n=0 ; $n<10; $n++) {
         $h = $h . $t;
-        echo str_repeat("&nbsp;&nbsp;", 9 - $n) . $h . "<br>";
+        echo str_repeat("&nbsp;", 9 - $n) . $h . "<br>";
         
     }
     echo "<a href=..//Slide1/Slide1.html>Torna Indietro</a>"
 
 ?>
+
+</body>
+</html>
