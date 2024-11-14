@@ -45,7 +45,7 @@
         echo str_repeat("&nbsp;", 9 - $n) . $h . "<br>";
         
     }
-    echo "<a href=..//Slide1/Slide1.html>Torna Indietro</a>"
+    echo "<a href=../Slide1/Slide1.html>Torna Indietro</a>"
 
 ?>
 
