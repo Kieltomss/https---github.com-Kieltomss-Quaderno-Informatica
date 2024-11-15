@@ -32,7 +32,6 @@
 
     // Mostra il risultato
     echo "Stai usando il browser $browser. <br>";
-
     // Ottieni la data e l'ora corrente
     $today = new DateTime('now', new DateTimeZone('Europe/Rome'));
     echo "<br>Oggi è il " . $today->format('d/m/Y') . "<br>";
@@ -115,5 +114,6 @@ Cosa Fa: Recupera la stringa dell'User Agent dell'utente, che contiene informazi
 <b>new DateTime():</b>
 Cosa Fa: Formatta l'oggetto DateTime in una stringa utilizzando il formato specificato.
 </pre>
+<a href="../Slide1/Slide1.html">Torna Indietro</a>
 </body>
 </html>

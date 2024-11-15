@@ -32,6 +32,6 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 }
 ?>
 <h4>Spiegazione dell'esercizio:</h4>
-<a href="../Slide2/Slide2.html">Indietro agli Esercizi</a>
+<a href="../Slide2/Slide2.html">Torna Indietro</a>
 </body>
 </html>
