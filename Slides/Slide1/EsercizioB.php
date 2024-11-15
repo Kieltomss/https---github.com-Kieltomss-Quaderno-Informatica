@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esercizio B</title>
 </head>
 <body>
-    <?php
+<?php
     echo "<h1>Esercizio B</h1>";
     echo "<h3>Pagina PHP dinamica con saluto basato sull'ora, benvenuto personalizzato, e rilevazione del browser in uso</h3>";
 
@@ -52,7 +52,7 @@
     for($i=0; $i <= 5; $i++) {
         echo "<br>";
     }
-    ?>
+?>
     <h3>Spiegazione dell'Esercizio</h3>
     <h4>Descrizione dell'esercizio:</h4>
     <pre>
@@ -115,5 +115,8 @@ Cosa Fa: Recupera la stringa dell'User Agent dell'utente, che contiene informazi
 <b>new DateTime():</b>
 Cosa Fa: Formatta l'oggetto DateTime in una stringa utilizzando il formato specificato.
 </pre>
+
+<a href="../Slide1/Slide1.html">Torna Indietro</a>
+
 </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Tabella Anagrafica</title>
 </head>
 <body>
+    <h1>Esercizio A e B</h1>
     <h1>Tabella Anagrafica Utenti</h1>
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -41,6 +42,7 @@
         echo "<p>Errore: nessun dato inviato.</p>";
     }
     ?>
-
+       <a href="../Slide3/Form.Html">Torna al form</a>
 </body>
 </html>
+
