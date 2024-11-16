@@ -32,7 +32,6 @@
 
     // Mostra il risultato
     echo "Stai usando il browser $browser. <br>";
-
     // Ottieni la data e l'ora corrente
     $today = new DateTime('now', new DateTimeZone('Europe/Rome'));
     echo "<br>Oggi è il " . $today->format('d/m/Y') . "<br>";

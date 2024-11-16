@@ -32,6 +32,7 @@
             echo "<h4>Benvenuto, $usr <br> nell'area riservata</h4>";
         }
     }
+
     ?>
 
     <!-- Spiegazione dell'esercizio -->
@@ -80,6 +81,7 @@ Lo snippet di codice PHP si occupa di gestire l'accesso all'area riservata, cont
 
     <!-- Link per tornare indietro -->
     <a href="../Slide2/Slide2.html">Indietro agli Esercizi</a>
+
 
 </body>
 </html>

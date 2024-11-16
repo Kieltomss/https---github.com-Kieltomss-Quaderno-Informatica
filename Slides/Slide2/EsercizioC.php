@@ -97,6 +97,6 @@ Cosa fa: Calcola la potenza di un numero. In questo caso, viene usato per calcol
 </pre>
 
 <br>
-<a href="../Slide2/Slide2.html">Indietro agli Esercizi</a>
+<a href="../Slide2/Slide2.html">Torna Indietro</a>
 </body>
 </html>
