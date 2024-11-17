@@ -107,6 +107,8 @@ Esempio: substr($d, 0, strlen($d) - 1) rimuove un asterisco dalla fine della str
 Cosa fa: Restituisce la lunghezza di una stringa.
 Esempio: strlen($c) è utilizzato per determinare la lunghezza della stringa iniziale di asterischi.
     </pre>
+
     <a href="../Slide1/Slide1.html">Torna Indietro</a>
+
 </body>
 </html>
