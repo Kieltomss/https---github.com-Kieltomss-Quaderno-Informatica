@@ -38,4 +38,3 @@
         <li><b>Login:</b> Sistema di autenticazione con verifica delle credenziali.</li>
         <li><b>Tabelle numeriche:</b> Generazione di tabelle con quadrati e cubi di numeri.</li>
     </ul>
-
